@@ -27,6 +27,25 @@ import pannel8 from './images/image/Panlist09.jpg';
 import pannel9 from './images/image/Panlist10.jpg';
 import pannel10 from './images/image/Panlist11.jpg';
 import pannel11 from './images/image/Panlist12.jpg';
+import brand1 from './images/image/AMRI.png';
+import brand2 from './images/image/bigb.png';
+import brand3 from './images/image/chai-break-logo.jpg';
+import brand4 from './images/image/dalmia.png';
+import brand5 from './images/image/Elleven-Logo_.png';
+import brand6 from './images/image/feedingIndia.png';
+import brand7 from './images/image/frespreso.jpg';
+import brand8 from './images/image/gdgpng.png';
+import brand9 from './images/image/hero.png';
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -164,6 +183,243 @@ This year's event is going to be graced by renowned bloggers such as Nitin Gupta
 
 </div>
     </div>
+
+    <div className='brands'>
+    <div className='container-fluid brands-class'><h1 className='h2'>Brands We Have Worked With</h1></div>
+
+    <div className="slider2">
+  <div className="slide-track2">
+    {/* <div className="slide2" style={{ marginLeft: "120px" }}>
+      <img
+        src="https://thumbs.dreamstime.com/b/tęczy-miłości-serca-tło-60045149.jpg"
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "100%",
+          margin: "auto",
+          height: "auto",
+        }}
+        height="100"
+        width="250"
+        alt=""
+      />
+    </div> */}
+    <div className="slide2">
+      <img
+        src="https://thumbs.dreamstime.com/b/tęczy-miłości-serca-tło-60045149.jpg"
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    {/* <div className="slide2">
+      <img
+        src="https://thumbs.dreamstime.com/b/tęczy-miłości-serca-tło-60045149.jpg"
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          // margin: "auto",
+          height: "50px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div> */}
+    <div className="slide2">
+      <img
+        src={brand1}
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2">
+      <img
+        src={brand2}
+        className="customzoom2"
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2" style={{ width: "150px" }}>
+      <img
+        src={brand3}
+        style={{
+          padding: "2% 10% 2% 5%",
+
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2">
+      <img
+        src={brand4}
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2" style={{ width: "250px" }}>
+      <img
+        src={brand5}
+        style={{
+          padding: "2% 10% 2% 5%",
+
+          width: "400px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2">
+      <img
+        src={brand6}
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2">
+      <img
+        src={brand7}
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2">
+      <img
+        src={brand8}
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2">
+      <img
+        src={brand9}
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2">
+      <img
+        src={brand1}
+        style={{
+          padding: "2% 5% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2">
+      <img
+        src={brand2}
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2">
+      <img
+        src={brand3}
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2">
+      <img
+        src={brand4}
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+    <div className="slide2">
+      <img
+        src={brand5}
+        style={{
+          padding: "2% 10% 2% 5%",
+          width: "350px",
+          height: "70px",
+        }}
+        height="100"
+        width="300"
+        alt=""
+      />
+    </div>
+  </div>
+</div>
+</div>
+
+
 
    
         <div className='container-fluid ques2'>
